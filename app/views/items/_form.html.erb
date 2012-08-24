@@ -1,0 +1,61 @@
+<%= form_for(@item) do |f| %>
+  <% if @item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+
+      <ul>
+      <% @item.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :item_id %><br />
+    <%= f.text_field :item_id %>
+  </div>
+  <div class="field">
+    <%= f.label :link_url %><br />
+    <%= f.text_field :link_url %>
+  </div>
+  <div class="field">
+    <%= f.label :small_img_url %><br />
+    <%= f.text_field :small_img_url %>
+  </div>
+  <div class="field">
+    <%= f.label :middle_img_url %><br />
+    <%= f.text_field :middle_img_url %>
+  </div>
+  <div class="field">
+    <%= f.label :big_img_url %><br />
+    <%= f.text_field :big_img_url %>
+  </div>
+  <div class="field">
+    <%= f.label :desc %><br />
+    <%= f.text_area :desc %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :evaluate_score %><br />
+    <%= f.text_field :evaluate_score %>
+  </div>
+  <div class="field">
+    <%= f.label :sale_amount %><br />
+    <%= f.number_field :sale_amount %>
+  </div>
+  <div class="field">
+    <%= f.label :review_count %><br />
+    <%= f.number_field :review_count %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

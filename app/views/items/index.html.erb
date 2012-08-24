@@ -1,0 +1,43 @@
+<h1>Listing items</h1>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Link url</th>
+    <th>Small img url</th>
+    <th>Middle img url</th>
+    <th>Big img url</th>
+    <th>Desc</th>
+    <th>Title</th>
+    <th>Price</th>
+    <th>Evaluate score</th>
+    <th>Sale amount</th>
+    <th>Review count</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @items.each do |item| %>
+  <tr>
+    <td><%= item.item_id %></td>
+    <td><%= item.link_url %></td>
+    <td><%= item.small_img_url %></td>
+    <td><%= item.middle_img_url %></td>
+    <td><%= item.big_img_url %></td>
+    <td><%= item.desc %></td>
+    <td><%= item.title %></td>
+    <td><%= item.price %></td>
+    <td><%= item.evaluate_score %></td>
+    <td><%= item.sale_amount %></td>
+    <td><%= item.review_count %></td>
+    <td><%= link_to 'Show', item %></td>
+    <td><%= link_to 'Edit', edit_item_path(item) %></td>
+    <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Item', new_item_path %>

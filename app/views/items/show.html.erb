@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Item:</b>
+  <%= @item.item_id %>
+</p>
+
+<p>
+  <b>Link url:</b>
+  <%= @item.link_url %>
+</p>
+
+<p>
+  <b>Small img url:</b>
+  <%= @item.small_img_url %>
+</p>
+
+<p>
+  <b>Middle img url:</b>
+  <%= @item.middle_img_url %>
+</p>
+
+<p>
+  <b>Big img url:</b>
+  <%= @item.big_img_url %>
+</p>
+
+<p>
+  <b>Desc:</b>
+  <%= @item.desc %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @item.title %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @item.price %>
+</p>
+
+<p>
+  <b>Evaluate score:</b>
+  <%= @item.evaluate_score %>
+</p>
+
+<p>
+  <b>Sale amount:</b>
+  <%= @item.sale_amount %>
+</p>
+
+<p>
+  <b>Review count:</b>
+  <%= @item.review_count %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

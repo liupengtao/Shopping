@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jsoup-1.6.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jsoup-1.6.3.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/commons-codec-1.6.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/fluent-hc-4.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpclient-4.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpcore-4.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpmime-4.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpclient-cache-4.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

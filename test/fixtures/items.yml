@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  item_id: MyString
+  link_url: MyString
+  small_img_url: MyString
+  middle_img_url: MyString
+  big_img_url: MyString
+  desc: MyText
+  title: MyString
+  price: MyString
+  evaluate_score: MyString
+  sale_amount: 1
+  review_count: 1
+
+two:
+  item_id: MyString
+  link_url: MyString
+  small_img_url: MyString
+  middle_img_url: MyString
+  big_img_url: MyString
+  desc: MyText
+  title: MyString
+  price: MyString
+  evaluate_score: MyString
+  sale_amount: 1
+  review_count: 1
