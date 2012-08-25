@@ -9,8 +9,12 @@
       <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpcore-4.2.1.jar!/" />
       <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpmime-4.2.1.jar!/" />
       <root url="jar://$USER_HOME$/下载/httpcomponents-client-4.2.1/lib/httpclient-cache-4.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/下载/mysql-connector-java-5.1.21/mysql-connector-java-5.1.21-bin.jar!/" />
+      <root url="jar://$USER_HOME$/下载/fastjson-1.1.23.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$USER_HOME$/下载/mysql-connector-java-5.1.21/src" />
+    </SOURCES>
   </library>
 </component>

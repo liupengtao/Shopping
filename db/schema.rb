@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120824154913) do
+ActiveRecord::Schema.define(:version => 20120824171823) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(:version => 20120824154913) do
     t.string   "small_img_url"
     t.string   "middle_img_url"
     t.string   "big_img_url"
-    t.text     "desc"
+    t.text     "intro"
     t.string   "title"
     t.string   "price"
     t.string   "evaluate_score"
