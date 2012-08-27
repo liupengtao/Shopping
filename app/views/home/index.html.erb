@@ -1,0 +1,109 @@
+<article class="wrapper">
+  <section id="hd">
+    <div class="title-nav">
+      <h1 class="logo"></h1>
+      <nav class="account-nav">
+        <a href="
+          <% new_user_path %>" target="_blank">注册</a>
+        <a href="
+          <% users_path %>" target="_blank">登录</a>
+      </nav>
+    </div>
+    <nav class="tools-nav">
+      <form action="">
+        <fieldset>
+          <legend></legend>
+          <input name="q" type="text"/>
+          <input type="submit" value="搜索"/>
+        </fieldset>
+      </form>
+      <ul class="tools">
+        <li>
+          <a href="#">试试手气</a>
+        </li>
+        <li>
+          <a href="#">收藏的店铺</a>
+        </li>
+        <li>
+          <a href="#">大家喜欢的店铺</a>
+        </li>
+        <li>
+          <a href="#">个人中心</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section id="bd">
+    <div class="main">
+      <aside class="l-sidebar">
+        <nav class="cty-nav">
+          <% @top_ctys.each do |top_cty| %>
+              <section class="top-cty">
+                <h3><%= top_cty.name %></h3>
+                <ul class="sub-cty">
+                  <% top_cty.children.each do |sub_cty| %>
+                      <li class="sub-cty-item">
+                        <a href="#" title="<%= sub_cty.name %>"><%= sub_cty.name %></a>
+                      </li>
+                  <% end %>
+                </ul>
+              </section>
+          <% end %>
+        </nav>
+      </aside>
+      <article class="content">
+        <div class="shops">
+          <% @shops.each do |shop| %>
+              <div class="shop-item">
+                <section class="shop-title">
+                  <h2 class="shop-logo"><img src="<%= shop.logo %>" title="<%= shop.name %>"/></h2>
+                  <nav class="shop-nav">
+                    <div class="shop-love">
+                      <a href="#" title="收藏">收藏</a>
+                      <a href="#" title="喜欢">喜欢</a>
+                    </div>
+                    <a href="#">标签</a>
+                    <a href="#">店铺风格</a>
+                    <a href="#">进入店铺</a>
+                  </nav>
+                </section>
+                <nav class="shop-goods-nav">
+                  <ul class="shop-goods-list">
+                    <% shop.items.limit(4).each do |good| %>
+                        <li class="shop-goods-item">
+                          <p class="goods-post">
+                            <img src="<%= good.middle_img_url %>" title="<%= good.intro %>"/>
+                          </p>
+
+                          <p class="sale-amount">
+                            <span><em>30</em>售出：<em><%= good.sale_amount %></em>件</span>
+                          </p>
+
+                          <p class="evaluate">
+                            <em>评价：</em>
+                            <% if good.review_count == 0 %>
+                                <span class="no-evaluate">暂无评价</span>
+                            <% else %>
+                        <span class="e-infos">
+                          <em class="score"><%= good.evaluate_score %></em>分&nbsp;|&nbsp;
+                          <em class="count"><%= good.review_count %>条评价</em>
+                        </span>
+                            <% end %>
+
+                          </p>
+
+                          <div class="review-contents">
+                            <!--TODO: show buyers' reviews-->
+                          </div>
+                        </li>
+                    <% end %>
+                  </ul>
+                </nav>
+              </div>
+          <% end %>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="fd"></section>
+</article>

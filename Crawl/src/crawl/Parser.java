@@ -34,7 +34,6 @@ public class Parser {
     private String password = "";
     private Connection connection;
     private PreparedStatement preparedStatement;
-    private String insertItemSql = "insert into items()";
     private HttpClient httpclient = new DefaultHttpClient();
     private SimpleDateFormat format = new SimpleDateFormat("YYYY/MM/dd HH:mm:ss");
 
@@ -195,6 +194,7 @@ public class Parser {
                     break;
                 } catch (Exception e) {
                     e.printStackTrace();
+                    TimeUnit.SECONDS.sleep(2);
                     continue;
                 }
             }

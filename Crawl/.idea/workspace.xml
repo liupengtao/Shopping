@@ -67,9 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/crawl/Crawl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="5" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,9 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/NewClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="24" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,23 +85,41 @@
         <entry file="file://$PROJECT_DIR$/src/crawl/Fetch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="83" column="41" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crawl/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="189" column="69" selection-start="9527" selection-end="9527" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1602#1610#0" expanded="true" />
-                <element signature="e#1633#1641#0" expanded="true" />
-                <element signature="e#1714#1743#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#parse#0;class#Parser#0" expanded="false" />
+                <element signature="e#11401#11417#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/crawl/Parser.java">
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tools/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="7053" selection-end="7053" vertical-scroll-proportion="0.3316583">
+            <state line="38" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#parse#0;class#Parser#0" expanded="false" />
-                <element signature="e#11412#11428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopDao.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dao/ShopDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="22" selection-start="473" selection-end="473" vertical-scroll-proportion="0.25115207">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +146,8 @@
         <option value="$PROJECT_DIR$/src/crawl/Crawl.java" />
         <option value="$PROJECT_DIR$/src/crawl/Fetch.java" />
         <option value="$PROJECT_DIR$/src/crawl/Parser.java" />
+        <option value="$PROJECT_DIR$/src/Utils.java" />
+        <option value="$PROJECT_DIR$/src/dao/ShopDao.java" />
       </list>
     </option>
   </component>
@@ -182,6 +198,86 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -195,19 +291,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -224,11 +307,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Fetch">
+  <component name="RunManager" selected="Application.ShopDao">
     <configuration default="false" name="Crawl" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="crawl.Crawl" />
       <option name="VM_PARAMETERS" />
@@ -289,6 +372,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ShopDao" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dao.ShopDao" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Crawl" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -309,6 +408,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -337,24 +454,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -406,10 +505,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Crawl" />
       <item index="1" class="java.lang.String" itemvalue="Application.NewClass" />
       <item index="2" class="java.lang.String" itemvalue="Application.Fetch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ShopDao" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -445,7 +545,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -455,13 +555,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24943139" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995451" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3540561" sideWeight="0.5111821" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3035144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35329795" sideWeight="0.5111821" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24600638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,110 +630,94 @@
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/下载/mysql-connector-java-5.1.21/mysql-connector-java-5.1.21-bin.jar!/com/mysql/jdbc/Clob.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/下载/mysql-connector-java-5.1.21/src/com/mysql/jdbc/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1495" column="61" selection-start="44593" selection-end="44593" vertical-scroll-proportion="-4.462585">
-          <folding />
-        </state>
+        <state line="1495" column="61" selection-start="44593" selection-end="44593" vertical-scroll-proportion="-4.462585" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/下载/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Clob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="65" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-1.9880953">
-          <folding />
-        </state>
+        <state line="193" column="65" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-1.9880953" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/jdk1.7.0_06/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="567" column="0" selection-start="26875" selection-end="26875" vertical-scroll-proportion="0.3327787">
-          <folding />
-        </state>
+        <state line="567" column="0" selection-start="26875" selection-end="26875" vertical-scroll-proportion="0.3327787" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/jdk1.7.0_06/src.zip!/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1080" column="19" selection-start="49481" selection-end="49481" vertical-scroll-proportion="0.33136094">
-          <folding />
-        </state>
+        <state line="1080" column="19" selection-start="49481" selection-end="49481" vertical-scroll-proportion="0.33136094" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../jsoup-1.6.3.jar!/org/jsoup/Jsoup.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="636" selection-end="636" vertical-scroll-proportion="0.36575875">
-          <folding />
-        </state>
+        <state line="15" column="39" selection-start="636" selection-end="636" vertical-scroll-proportion="0.36575875" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/jdk1.7.0_06/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="22" selection-start="14308" selection-end="14308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="309" column="22" selection-start="14308" selection-end="14308" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/jdk1.7.0_06/src.zip!/java/sql/Timestamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="5" selection-start="3991" selection-end="3991" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="114" column="5" selection-start="3991" selection-end="3991" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/下载/fastjson-1.1.23.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="0" selection-start="7503" selection-end="7503" vertical-scroll-proportion="-7.68">
-          <folding />
-        </state>
+        <state line="143" column="0" selection-start="7503" selection-end="7503" vertical-scroll-proportion="-7.68" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/jdk1.7.0_06/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="51" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.3327787">
-          <folding />
-        </state>
+        <state line="56" column="51" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.3327787" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crawl/Crawl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="26" column="5" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crawl/Fetch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="41" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.0">
+        <state line="83" column="41" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1602#1610#0" expanded="true" />
-            <element signature="e#1633#1641#0" expanded="true" />
-            <element signature="e#1714#1743#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crawl/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="7053" selection-end="7053" vertical-scroll-proportion="0.3316583">
+        <state line="189" column="69" selection-start="9527" selection-end="9527" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#parse#0;class#Parser#0" expanded="false" />
-            <element signature="e#11412#11428#0" expanded="true" />
+            <element signature="e#11401#11417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ShopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="473" selection-end="473" vertical-scroll-proportion="0.25115207">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
