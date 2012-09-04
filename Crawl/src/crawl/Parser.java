@@ -13,6 +13,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -34,13 +38,15 @@ public class Parser {
     private String password = "";
     private Connection connection;
     private PreparedStatement preparedStatement;
+    private PreparedStatement itemImgsPS;
     private HttpClient httpclient = new DefaultHttpClient();
     private SimpleDateFormat format = new SimpleDateFormat("YYYY/MM/dd HH:mm:ss");
 
     public Parser() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
         connection = DriverManager.getConnection(url, username, password);
-        preparedStatement = connection.prepareStatement("insert into items(item_id,link_url,small_img_url,middle_img_url,big_img_url,intro,title,price,evaluate_score,sale_amount,review_count,created_at,updated_at) values(?,?,?,?,?,?,?,?,?,?,?,?,?)");
+        preparedStatement = connection.prepareStatement("insert into items(item_id,link_url,small_img_url,middle_img_url,big_img_url,intro,title,price,evaluate_score,sale_amount,review_count,created_at,updated_at,shop_id) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+        itemImgsPS = connection.prepareStatement("insert into item_imgs(item_id,img_url,created_at,updated_at) values(?,?,?,?)");
     }
 
     @Deprecated()
@@ -131,16 +137,20 @@ public class Parser {
         }
     }
 
-    public void parse(List<String> ids, List<String> urls, PrintStream out) throws IOException, SQLException, InterruptedException {
+    public void parse(List<String> ids, List<String> urls, String shop_id,PrintStream out) throws IOException, SQLException, InterruptedException, URISyntaxException {
         String linkUrl = null, smallImgUrl = null, itemId = null, desc, price = null, middleImgUrl, bigImgUrl, evaluateScore = null, color;
         int saleAmount = 0, reviewCount, index = 0;
         Pattern idRe = Pattern.compile("\\?.*?id=(\\d+)");
         Pattern floatRe = Pattern.compile("(\\d+(?:\\.\\d+)?)");
+        Pattern saleAmountRe = Pattern.compile("\"apiItemInfo\"\\s*:\\s*\"(.*?)\"");
         Matcher matcher;
 
         for (String url : urls) {
-            index++;
+            linkUrl = url;
+            itemId = ids.get(index);
             while (true) {
+                itemImgsPS.clearBatch();
+                preparedStatement.clearBatch();
                 try {
                     Document detailDoc = Jsoup.connect(url).get();
                     if (detailDoc == null) {
@@ -148,11 +158,29 @@ public class Parser {
                         continue;
                     }
                     Element itemPros = null;
+                    matcher = saleAmountRe.matcher(detailDoc.html());
+                    if (matcher.find()) {
+                        URL url1 = new URL(matcher.group(1));
+                        URLConnection urlConnection = url1.openConnection();
+                        InputStream inputStream = urlConnection.getInputStream();
+                        byte[] a = new byte[inputStream.available()];
+                        urlConnection.getInputStream().read(a);
+                        saleAmount = JSON.parseObject(new String(a,"gbk").split("\\(")[1].split("\\)")[0]).getJSONObject("quantity").getInteger("quanity");
+                    }
 //                    try {
                         desc = detailDoc.select(".tb-detail-hd h3").first().text();
                         middleImgUrl = detailDoc.select(".tb-booth:eq(0) img:eq(0)").first().attr("src");
                         itemPros = detailDoc.select(".tb-property").first();
                         price = itemPros.select("#J_StrPrice").first().text();
+                        Elements imgs = detailDoc.select(".tb-gallery ul").first().select("img");
+
+                        for (Element element : imgs) {
+                            itemImgsPS.setString(1,itemId);
+                            itemImgsPS.setString(2,element.attr("src").replace("40","310"));
+                            itemImgsPS.setTimestamp(3, new Timestamp(Calendar.getInstance().getTimeInMillis()));
+                            itemImgsPS.setTimestamp(4, new Timestamp(Calendar.getInstance().getTimeInMillis()));
+                            itemImgsPS.addBatch();
+                        }
 //                    } catch (Exception e) {
 //                        this.log("详细页面dom结构变化！itemId是" + itemId + ".At Time:", out);
 //                        e.printStackTrace(out);
@@ -164,6 +192,7 @@ public class Parser {
 //                    try {
                         String commonData = commonDataDoc.select("body").text().trim();
                         commonData = commonData.substring(1, commonData.length() - 1);
+                    System.out.println(commonData);
                         JSONObject commonObject = JSON.parseObject(commonData);
 
                         evaluateScore = commonObject.getJSONObject("data").getString("correspond");
@@ -189,6 +218,7 @@ public class Parser {
                     this.preparedStatement.setInt(11, reviewCount);
                     this.preparedStatement.setTimestamp(12, new Timestamp(Calendar.getInstance().getTimeInMillis()));
                     this.preparedStatement.setTimestamp(13, new Timestamp(Calendar.getInstance().getTimeInMillis()));
+                    this.preparedStatement.setString(14,shop_id);
 
                     this.preparedStatement.addBatch();
                     break;
@@ -198,8 +228,10 @@ public class Parser {
                     continue;
                 }
             }
+            index++;
             if (index % 30 == 0) {
                 this.preparedStatement.executeBatch();
+                this.itemImgsPS.executeBatch();
             }
             TimeUnit.MILLISECONDS.sleep(100);
         }

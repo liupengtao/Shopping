@@ -14,7 +14,7 @@
         <fieldset>
           <legend></legend>
           <input name="q" type="text"/>
-          <input type="submit" value="搜索"/>
+          <input type="submit" value="搜索" class="submit-btn"/>
         </fieldset>
       </form>
       <ul class="tools">
@@ -36,6 +36,7 @@
   <section id="bd">
     <div class="main">
       <aside class="l-sidebar">
+        <h2 class="cty-label">热门分类</h2>
         <nav class="cty-nav">
           <% @top_ctys.each do |top_cty| %>
               <section class="top-cty">
@@ -69,24 +70,24 @@
                 </section>
                 <nav class="shop-goods-nav">
                   <ul class="shop-goods-list">
-                    <% shop.items.limit(4).each do |good| %>
+                    <% shop.items.order("sale_amount desc").limit(3).each do |good| %>
                         <li class="shop-goods-item">
                           <p class="goods-post">
-                            <img src="<%= good.middle_img_url %>" title="<%= good.intro %>"/>
+                            <a href="<%= good.link_url %>" target="_blank"><img src="<%= good.middle_img_url %>" title="<%= good.intro %>"/></a>
                           </p>
-
+                            <p class="intro"><%= good.intro %></p>
                           <p class="sale-amount">
                             <span><em>30</em>售出：<em><%= good.sale_amount %></em>件</span>
                           </p>
 
                           <p class="evaluate">
-                            <em>评价：</em>
+                            评价：
                             <% if good.review_count == 0 %>
                                 <span class="no-evaluate">暂无评价</span>
                             <% else %>
                         <span class="e-infos">
                           <em class="score"><%= good.evaluate_score %></em>分&nbsp;|&nbsp;
-                          <em class="count"><%= good.review_count %>条评价</em>
+                          <em class="count"><%= good.review_count %></em>条评价
                         </span>
                             <% end %>
 

@@ -146,8 +146,154 @@ http://shop34366844.taobao.com/
 35.	Mr.chen
 http://shop36950851.taobao.com/
   data
+
+  new_shops = <<-NEWSHOPS
+1.百分之一女装店
+http://100f1.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+2.CATWORLD女装
+http://catworld.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+3.天使之城
+http://mixqueen.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+4.当当阁正品服饰
+http://dang.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+5.as安都女装店
+http://asando.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+6.沐乃衣日韩女装
+http://munaiyi007.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+7.妖精的口袋
+http://koudai.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+8.蚂蚁阿宅
+http://mayiazhai.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+9.桔熊
+http://shop34939047.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+10.粉红大布娃娃
+http://fenhongdabuwawa.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+11.蝶恋
+http://yxjy.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+12.朱迪的房间
+http://judyroom.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+13.双金冠小维人气女装潮店
+http://xiaoweitongxue.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+14.JUJU美衣
+http://jujujuju.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+15.r.beauty瑞丽依佳人
+http://rbeauty.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+16.七格格TOP潮品
+http://sugargirl.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+17.木木家
+http://mumuhome.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+18.魅力印象
+http://9mg-cn.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+19.卡卡是公主
+http://tomgoods.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+20.Vivi小妹
+http://vvxiaomei.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+21.又见小夕
+http://youjianxiaoxi.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+22.KUOSE 阔色 夜衣馆
+http://yeyiguan.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+23.花信年华 淑女屋
+http://hxnh.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+24.天之大 瑟之鸣
+http://shop56634.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+25.衣依衣
+http://shop33859144.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+26.百武西
+http://baiwuxi.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+27.美妍时尚
+http://myss9969.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+28.我是优衣
+http://99youi.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+29.VS.tw
+http://gdhouse.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+30.ciao 俏
+http://ciaodafanfan.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+31.妞妞旺铺
+http://niu88.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+32.hmanh红漫红
+http://hmanh.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+33.911M 日韩风
+http://911m.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+34.流行解码
+http://mix-studio.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+35.UPON呵呵也也
+http://love-upon.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+
+
+男装
+1.卡哇伊时尚小铺
+http://kwyyy.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+2.LIHOMME历织造
+http://lihomme.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+3.拉风阁
+http://297892008.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+4.潮衣色
+http://941mai.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+5.KUEGOU/酷衣购
+http://shop33227145.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+6.ACE C RED胡四哥
+http://husige.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+7.懒客男装 LAKO Homme
+http://lako.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+8.no1dara官方男装店
+http://dara2010.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+9.酷炫非主流男装
+http://shop34472414.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+10.一号商城
+http://three-gun.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+11.随心索衣男装
+http://taotao10000.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+12.@Sir7 舍弃
+http://sir7.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=5-e&search=y&initiative_id=shopz_20120827
+13.E尚小站男装
+http://es365.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+14.Dultony
+http://limusa.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+15.虎门镇牛仔潮品
+http://cheapmonday.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+16.衣格良品
+http://es-tee.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+17.ZJ-Body
+http://1314.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+18.禾子男装
+http://jimiao.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+19.soul-city
+http://soul-city.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+20.JUSKEN 杰仕克恩
+http://jusken.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+21.兑服饰
+http://dten.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+22.纺布者
+http://pennypei.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+23.KokoZone官方男装店
+http://kokozone.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+24.Dancer Jack街头嘻哈
+http://hiphoper.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+25.COUK商务休闲男装
+http://couk.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+26.17画
+http://17hua.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+27.优衣裤之家
+http://yykzj.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+28.完美男人服饰店
+http://gg1188.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+29.男孩很忙
+http://454198248.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+30.加勒比
+http://caribbean-x.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+31.富柏官方男装店
+http://shop33230938.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+32.酷男服饰
+http://820609.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+33.ycy519ycy
+http://ycy519ycy.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+34.prince4413
+http://p4413.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+35.Mr.chen
+http://2008mrchen.taobao.com/?q=&searcy_type=item&s_from=newHeader&source=&ssid=s5-e&search=y&initiative_id=shopz_20120827
+  NEWSHOPS
 result = []
-  shops.scan(/(?:(?:[\d\.]+)\s*(.*?))\s*(http:\/\/[\w\.]+\/)/).each do |item|
+  new_shops.scan(/(?:(?:\d+\.)\s*(.*?))\s*(http:.+)/).each do |item|
     result << "#{item[1]};#{item[0]}"
   end
   p result

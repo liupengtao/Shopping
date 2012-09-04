@@ -1,3 +1,179 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+#hd {
+  .title-nav {
+    overflow: hidden;
+    .logo {
+      float: left;
+      width: 100px;
+      height: 50px;
+    }
+    .account-nav {
+      float: right;
+      a {
+        padding: 0 15px;
+        line-height: 50px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .tools-nav {
+    overflow: hidden;
+    background: #ff2011;
+    line-height: 30px;
+    form {
+      float: left;
+      padding-left: 15px;
+      fieldset {
+        border: none;
+        .submit-btn {
+          border: none;
+          background: none;
+          font-size: 18px;
+          color: #ffffff;
+          margin-left: 10px;
+        }
+      }
+    }
+    .tools {
+      float: right;
+      li {
+        float: left;
+        margin-right: 20px;
+        a {
+          height: 30px;
+          line-height: 30px;
+          color:#ffffff;
+          font-size: 14px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+#bd {
+  .main {
+    margin-top: 10px;
+    .l-sidebar {
+      float: left;
+      width: 150px;
+      text-align: center;
+      .cty-label {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #00f0ff;
+        padding: 10px 0;
+      }
+      .cty-nav {
+        overflow: hidden;
+        background-color: #ff1493;
+        padding-bottom: 800px;
+        .top-cty {
+          overflow: hidden;
+          h3 {
+            padding: 20px 0;
+          }
+          .sub-cty {
+            float: left;
+            .sub-cty-item {
+              float: left;
+              width: 70px;
+              a {
+                color: #ffffff;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .content {
+      float: right;
+      width: 810px;
+      .shops {
+        overflow: hidden;
+        .shop-item {
+          overflow: hidden;
+          margin-bottom: 50px;
+          .shop-title {
+            overflow: hidden;
+            padding-left: 20px;
+            .shop-logo {
+              float: left;
+              width: 200px;
+              height: 70px;
+            }
+            .shop-nav {
+              float: right;
+              .shop-love {
+                float: left;
+                height: 70px;
+                a {
+                  display: block;
+                  line-height: 35px;
+                }
+              }
+              a {
+                &:hover {
+                  text-decoration: underline;
+                }
+                line-height:70px;
+                margin-right: 20px;
+              }
+            }
+          }
+          .shop-goods-nav {
+            margin-top: 20px;
+            .shop-goods-list {
+              .shop-goods-item {
+                float: left;
+                width: 250px;
+                margin-left: 20px;
+                overflow: hidden;
+                .intro {
+                  font-weight: bold;
+                }
+                .goods-post {
+                  img {
+                    width: 250px;
+                    height: 250px;
+                  }
+                }
+                .sale-amount,.evaluate{
+                  margin-top: 10px;
+                  em {
+                    font-style: normal;
+                    color: #ff69b4;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
